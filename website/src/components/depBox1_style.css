@@ -1,0 +1,16 @@
+#depBox1 {
+    z-index: 4;
+    box-shadow: 12px 12px 9px lightgray;
+    height: 220px;
+}
+
+/*.buttonMovie {
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    opacity: 0;
+}*/
+
+#depBox1:hover {
+    filter: blur(2.3px);
+}
