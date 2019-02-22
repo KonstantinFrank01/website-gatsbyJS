@@ -6,13 +6,13 @@ export default ({children}) => (
     <div>
         <div id="depBox1">
             <img src={popcorn} alt="popcorn" />
+            <button className="buttonMovie">Movies</button>
         </div>
-        <button className="buttonMovie">Movies</button>
     </div>
 )
 
-/*function showButton() {
+function showButton() {
     if (document.getElementById('depBox1').onmouseover == true) {
         console.log('over');
     }
-}*/
+}
