@@ -1,10 +1,11 @@
 #depBox2 {
     z-index: 4;
     height: 220px;
-    box-shadow: 12px 12px 9px lightgray;
+    box-shadow: 12px 12px 9px #262222;
 }
 #depBox2:hover img {
     filter: blur(2.3px);
+    border: none;
 }
 .buttonOnline {
     position: absolute;
