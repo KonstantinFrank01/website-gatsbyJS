@@ -10,9 +10,3 @@ export default ({children}) => (
         </div>
     </div>
 )
-
-function showButton() {
-    if (document.getElementById('depBox1').onmouseover == true) {
-        console.log('over');
-    }
-}
