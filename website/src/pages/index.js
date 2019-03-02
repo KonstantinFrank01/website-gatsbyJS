@@ -1,4 +1,5 @@
 import React from "react"
+import Css from "./index_style.css"
 import NavigationBar from "../components/navigationBar"
 import DepBox1 from "../components/depBox1"
 import DepBox2 from "../components/depBox2"
@@ -25,7 +26,7 @@ export default () => (
             <DepBox3></DepBox3>
         </div>
         <hr id="headingLine" style={{ zIndex: '1000', position: 'absolute', top: '155%', left: '7.5%', height: '0.7%', width: '7.5%', border: 'none', color: '#ffb246', backgroundColor: '#ffb246'}}/>
-        <span style={{ position: 'absolute', top: '154%', left: '17%', color: '#ffb246'}}>DIGITAL</span>
+        <span style={{ position: 'absolute', top: '150.5%', left: '17.4%', color: '#ffb246', fontSize: '3rem', fontWeight: 'bold'}}>DIGITAL</span>
         <Typist></Typist>
 
         <div id="colorBox2" style={{ backgroundColor: '#ffe5e0', width: '100%', height: '50%', position: 'absolute', top: '240%', zIndex: '1000'}}></div> 
