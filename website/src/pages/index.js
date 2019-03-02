@@ -13,6 +13,9 @@ export default () => (
     <div style={{backgroundColor: 'white'}}>
         <NavigationBar />
         <img src={Logo} alt="Firmenlogo" style={{position: 'absolute', top: '1.5%', left: '3%', height: '53px', width: '215px'}} /> 
+        <div style={{ backgroundColor: 'white', width: '28%', height: '15%', position: 'absolute', top: '76%', zIndex: '10', backgroundColor: '#F2F2F2'}}>
+            <img src={Logo} alt="Firmenlogo" style={{position: 'absolute', top: '10%', left: '6%', height: '89px', width: '365px'}} /> 
+        </div>
         <img src={heroImage} alt="heroImage" style={{position: 'absolute', top: '10%'}}/> 
             
         <div id="colorBox1" style={{ backgroundColor: '#F2F2F2', width: '100%', height: '115.5%', position: 'absolute', top: '91%'}}></div>

@@ -23,7 +23,7 @@ import {Link} from "gatsby"
 
 const ListLink = props => (
     <li style={{float: 'right', padding: '50px'}}>
-        <Link to={props.to} style={{display: 'block', color: 'black', fontFamily: 'lucida sans unicode', position: 'absolute', top: '15%', fontSize: '1rem', margin: '1rem', marginLeft: '-7.5rem'}}>{props.children}</Link>
+        <Link to={props.to} style={{display: 'block', color: '#7b9fff', position: 'absolute', top: '15%', fontSize: '1.2rem', margin: '1rem', marginLeft: '-7.5rem'}}>{props.children}</Link>
     </li>
 )
 
