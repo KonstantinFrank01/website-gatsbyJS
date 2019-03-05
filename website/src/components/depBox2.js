@@ -5,6 +5,6 @@ import code from "../images/code.jpeg"
 export default ({children}) => (
     <div id="depBox2">
         <img src={code} alt="Online" />
-        <button className="buttonOnline">Online</button>
+        <button className="buttonOnline">ONLINE</button>
     </div>
 )

@@ -1,7 +1,7 @@
 #depBox2 {
     z-index: 4;
     height: 220px;
-    box-shadow: 12px 12px 9px #7b9fff;
+    box-shadow: 12px 12px 9px black;
 }
 #depBox2:hover img {
     filter: blur(2.3px);
@@ -9,9 +9,18 @@
 }
 .buttonOnline {
     position: absolute;
-    left: 42%;
+    left: 38%;
     top: 110%;
     opacity: 1;
+    background-color: white;
+    color: #f63700;
+    padding: 8px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 2px solid #f63700;
 }
 
 #depBox2:hover .buttonOnline {
